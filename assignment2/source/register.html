@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Page</title>
+
+    <h1><pre class="tab">               Register Page</pre></h1><br><br>
+    <style>
+
+        .button {
+
+            border-color:navy;
+            color:navy;
+            padding: 10px 0px;
+            text-align: right;
+            text-decoration: none;
+            display: inline-block;
+            font-size:20px;
+            margin:200px 0px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+
+<body background="http://3.bp.blogspot.com/-qSsmJ4D0aEg/T_jQdPfFjuI/AAAAAAAAABQ/ucTXHfhe1Y4/s1600/worship-background.jpg">
+
+<script>
+    function redirect() {
+        window.location.assign("index.html");
+        validate();
+    }
+    function validate() {
+        if (localStorage) {
+
+
+
+            form = document.forms["regform"];
+
+            var un = form["u"].value;
+
+            var pn = form["p"].value;
+
+            localStorage.setItem('unn', un);
+
+            localStorage.setItem('pnn', pn);
+
+
+
+            return true;
+
+        }
+
+    }
+</script>
+<form name="regform">
+
+    <h3><p style="margin-left:2.5em">First Name:.</p></h3>
+    <pre class="tab">       <input type="text" placeholder="Enter FirstName" name="firstname"><br></pre>
+    <h3><p style="margin-left:2.5em">Last Name :.</p></h3>
+    <pre class="tab">       <input type="text" placeholder="Enter LastName" name="lastname"><br></pre>
+    <h3><p style="margin-left:2.5em">Username:.</p></pre></h3>
+    <pre class="tab">       <input type="text" placeholder="Enter Username" name="u"><br></pre>
+    <h3><p style="margin-left:2.5em">Password:.</p></h3>
+    <pre class="tab">       <input type="password" placeholder="Enter Password" name="p"><br></pre>
+    <br>
+    <pre class="tab">                   <button type="button" onclick="redirect()">Register</button><br> </br></pre>
+</form>
+</body>
+</html>
