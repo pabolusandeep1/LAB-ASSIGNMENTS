@@ -1,0 +1,60 @@
+body{
+    width:80%;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/5f/Desert_road_near_Paranal.JPG') center center;
+
+}
+h1{
+    padding-left: 2%;
+    padding-top: 5%;
+    text-align-all: center;
+    font-size: x-large;
+    font-family: "Times New Roman";
+
+}
+div{
+
+    color: black;
+    font-size: large;
+    font-family: "Times New Roman";
+
+}
+button{
+    width:48%;
+    background-color: black;
+    color: white;
+    float: left;
+    font-size: large;
+    font-family: "Times New Roman";
+
+}
+
+form{
+    font-size: smaller;
+    width:50%;
+    padding:3%;
+
+}
+div
+{
+    font-size:large;
+    font-family: "Times New Roman";
+
+}
+map
+{
+    float: right;
+}
+script
+{
+    font-size:smaller;
+    font-family: "Times New Roman";
+}
+footer{
+
+    padding-left:20%;
+    padding-top:30%;
+    width:40%;
+}
+span{
+    float:right;
+}

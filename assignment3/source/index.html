@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="925500306425-p86f5q5m3gdje5eb2n0gqvtj6etcc678.apps.googleusercontent.com">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Login Page</h1>
+    <input type="text" name="u" placeholder="Username" required /><br>
+    <input type="password" name="p" placeholder="Password" required /><br>
+    <a class="btn" href="home.html">Login</a><br>
+    <div align="center"
+         class="g-signin2"
+         data-onsuccess="onSignIn"
+         data-scope="https://www.googleapis.com/auth/plus.login"
+         data-accesstype="offline"
+
+         data-redirecturi="http://localhost:63342/assignment3/home.html">
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
