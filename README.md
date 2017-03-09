@@ -1,2 +1,2 @@
-# LAB-ASSIGNMENTS 6
-https://github.com/pabolusandeep1/LAB-ASSIGNMENTS/wiki/assignment-6
+# LAB-ASSIGNMENTS 7
+https://github.com/pabolusandeep1/LAB-ASSIGNMENTS/wiki/assignment-7
