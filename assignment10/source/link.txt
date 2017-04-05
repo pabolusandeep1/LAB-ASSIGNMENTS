@@ -1,0 +1,1 @@
+http://sample-env-1.zvttqtrmyk.us-west-2.elasticbeanstalk.com
