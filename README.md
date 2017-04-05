@@ -18,4 +18,4 @@
  
  9:https://github.com/pabolusandeep1/LAB-ASSIGNMENTS/wiki/assignment-9
  
- 10:https://github.com/pabolusandeep1/LAB-ASSIGNMENTS/wiki/assignment-9
+ 10:https://github.com/pabolusandeep1/LAB-ASSIGNMENTS/wiki/Assignment10
